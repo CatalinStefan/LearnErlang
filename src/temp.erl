@@ -12,5 +12,5 @@ convert({fahrenheit, X}) ->
   Y = (X - 32) * 5 / 9,
   {celsius, Y};
 convert({celsius, X}) ->
-  Y = X * 5 / 9 + 32,
+  Y = X * 9 / 5 + 32,
   {fahrenheit, Y}.
